@@ -1,0 +1,10 @@
+{
+    "mediaFolder": "c:\\media",
+    "collections": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "database": "train",
+        "user": "pwn",
+        "password": "ScrotusLovesButtsex.001"
+    }
+}
