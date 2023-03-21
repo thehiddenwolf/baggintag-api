@@ -71,8 +71,8 @@ I will try to use what's out there already so I don't have to reinvent the wheel
     - Setup Dev environment
         x - Tests
         x - Linting
-        - Debugging
-        - Git Repository
+        x - Debugging
+        x - Git Repository
         - No Docker for the API, but Docker for the UI
     - Create a basic API for uploading images and videos with their existing tags, as well as get and search
         get ./media/{id} (completed repo and api-level call, need to make endpoint)

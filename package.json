@@ -5,7 +5,13 @@
   "description": "an app for building up data to tag and train stable diffusion",
   "main": "index.mjs",
   "scripts": {
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest"
+    "run-api": "cross-env NODE_OPTIONS=--experimental-vm-modules node index.mjs",
+    "debug-api": "cross-env NODE_OPTIONS=--experimental-vm-modules node --inspect-brk index.mjs",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "debug-test": "cross-env NODE_OPTIONS=--experimental-vm-modules node --inspect-brk ./node_modules/jest/bin/jest.js",
+    "lint": "npx eslint . --ext .js,.mjs",
+    "lint-fix": "npx eslint . --ext .js,.mjs --fix"
+
   },
   "author": "The hidden wolf",
   "license": "ISC",
